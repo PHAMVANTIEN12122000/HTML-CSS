@@ -13,9 +13,22 @@
 git config --global user.email email@gmail.com --add
 check email: git config user.email 
 
-# kiểm tra trạng thái các file đã bị thay đổi :
+
+# kiểm tra file đã bị thay đổi :
 
  git status 
+
+ # kiểm tra trạng thái thay đổi cụ thể :
+ 
+ git status -s 
+   output:
+    M,T : modified
+    A :   added 
+    D :   deleted
+    R :   renamed 
+    C :   copied 
+    U :   updated but unmerged 
+
 
 # Các bước đẩy code lên github
 
@@ -25,7 +38,7 @@ check email: git config user.email
 
  git  commit -m"upload sourd code"
 
- git remote add origin https://github.com/PHAMVANTIEN-HENRYPHAM/LEARN-CODE.git
+ git remote add origin https://github.com/........git
 
  git push origin master
 
