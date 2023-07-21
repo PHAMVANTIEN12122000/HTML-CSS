@@ -1,0 +1,9 @@
+git init
+
+git add .
+
+git  commit -m"upload sourd code"
+
+git remote add origin https://github.com/PHAMVANTIEN-HENRYPHAM/LEARN-CODE.git
+
+git push 
