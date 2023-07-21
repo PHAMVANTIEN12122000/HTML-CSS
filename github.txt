@@ -1,9 +1,33 @@
-git init
+# kiểm tra phiên bản git.
+ 
+ windows + R "cmd"
+ 
+ git --version
 
-git add .
 
-git  commit -m"upload sourd code"
+# Thiết lập tên và email
 
-git remote add origin https://github.com/PHAMVANTIEN-HENRYPHAM/LEARN-CODE.git
+ git config --global user.name New_Name --add
+ check name : git config user.name
 
-git push origin master
+git config --global user.email email@gmail.com --add
+check email: git config user.email 
+
+# kiểm tra trạng thái các file đã bị thay đổi :
+
+ git status 
+
+# Các bước đẩy code lên github
+
+ git init
+
+ git add .
+
+ git  commit -m"upload sourd code"
+
+ git remote add origin https://github.com/PHAMVANTIEN-HENRYPHAM/LEARN-CODE.git
+
+ git push origin master
+
+
+
