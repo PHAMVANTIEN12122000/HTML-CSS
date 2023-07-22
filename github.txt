@@ -57,8 +57,11 @@ check email: git config user.email
  git checkout -b new_name_branch
 
 
+# Cách kiểm tra nhánh code đang đứng
 
+ git branch --show 
 
+ 
 
 # Các bước đẩy code lên github
 
