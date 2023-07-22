@@ -39,6 +39,12 @@ check email: git config user.email
  git commit --am -m" [#key-task] + [A/M/D] + [ feature: tính năng] "
   
 
+# Git clone [download the code from Github to Computer ]
+
+  git clone https:....[in HTTPS]
+
+
+
 
 # Các bước đẩy code lên github
 
