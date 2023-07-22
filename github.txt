@@ -30,9 +30,21 @@ check email: git config user.email
     U :   updated but unmerged 
 
 
+# Git commit là gì ? các sửa git commit 
+ 
+ git commit -m" [#key-task] + [A/M/D] + [ feature: tính năng] "
+ 
+ # fix git commit 
+ 
+ git commit --am -m" [#key-task] + [A/M/D] + [ feature: tính năng] "
+  
+
+
 # Các bước đẩy code lên github
 
  git init
+
+ git status
 
  git add .
 
