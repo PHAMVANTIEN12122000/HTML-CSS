@@ -57,9 +57,22 @@ check email: git config user.email
  git checkout -b new_name_branch
 
 
+
+
+
+# Chuyển qua lại giữa các nhánh .
+  
+  git checkout branch_name 
+
+
+
+
 # Cách kiểm tra nhánh code đang đứng
 
  git branch --show 
+
+
+
 
 
 # Merge code là gì ?
