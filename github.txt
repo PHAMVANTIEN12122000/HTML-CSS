@@ -61,7 +61,13 @@ check email: git config user.email
 
  git branch --show 
 
+
+# Merge code là gì ?
  
+ Pull requets -> New pull request -> create pull request -> Merge pull request [leader] -> Comfirm merge [leader] 
+
+
+
 
 # Các bước đẩy code lên github
 
