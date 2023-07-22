@@ -73,6 +73,11 @@ check email: git config user.email
 
 
 
+# Git pull :  lấy về thông tin từ remote và cập nhật vào các nhánh của local repo
+
+ git pull origin name_branch
+
+
 
 
 # Merge code là gì ?
