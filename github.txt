@@ -58,7 +58,7 @@
  
  git log 
 
- git log --oneline
+ git log --oneline    [muốn thoát ra nhấn :q]
 
 
  # Git checkout id_commit [trở về thời điểm id_commit trước đó]
