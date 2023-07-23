@@ -10,8 +10,8 @@
  git config --global user.name New_Name --add
  check name : git config user.name
 
-git config --global user.email email@gmail.com --add
-check email: git config user.email 
+ git config --global user.email email@gmail.com --add
+ check email: git config user.email 
 
 
 # kiểm tra file đã bị thay đổi :
@@ -30,9 +30,23 @@ check email: git config user.email
     U :   updated but unmerged 
 
 
-# Git commit là gì ? các sửa git commit 
+
+# Git add . [chuyển bị lưu]
+
+ git add .
+
+
+
+# Git reset [lấy ra khỏi lệnh chuyển bị lưu ..]
+ 
+ git reset
+
+
+
+# Git commit là gì ? các sửa git commit [ chính thức lưu ]
  
  git commit -m" [#key-task] + [A/M/D] + [ feature: tính năng] "
+
  
  # fix git commit 
  
@@ -40,15 +54,28 @@ check email: git config user.email
   
 
 
-# Git clone [download the code from Github to Computer ]
+# Git log , git log --oneline  [xem thời điểm git commit]
+ 
+ git log 
 
-  git clone https:....[in HTTPS]
+ git log --oneline
+
+
+ # Git checkout id_commit [trở về thời điểm id_commit trước đó]
+  
+   git checkout id_commit.
+
+ 
+ # Chuyển về hiện tại.
+  
+   git checkout branch_name 
 
 
 
 # Git Branch [kiểm tra nhánh]
  
  git branch
+
 
 
 
@@ -73,9 +100,15 @@ check email: git config user.email
 
 
 
-# Git pull :  lấy về thông tin từ remote và cập nhật vào các nhánh của local repo
+# Git merge branch_name [tổng hợp lại nhánh]
 
- git pull origin name_branch
+ git merge branch_name
+
+
+
+# Git branch -d branch_name_delete [xóa nhánh đã gộp khi xong ko cần thiết nữa]
+
+ git branch -d branch_name_delete 
 
 
 
@@ -84,6 +117,38 @@ check email: git config user.email
  
  Pull requets -> New pull request -> create pull request -> Merge pull request [leader] -> Comfirm merge [leader] 
 
+
+
+
+# Git pull :  lấy về thông tin từ remote và cập nhật vào các nhánh của local repo
+
+ git pull origin name_branch
+
+
+
+
+# Git push -u origin branch_local_new [đẩy branch [nhánh] mới của local lên remote ]
+ 
+ git push -u origin branch_local_new
+
+
+
+
+# Lấy branch from remote to local [kéo nhánh từ github về local]
+
+ git fetch origin   ->   git checkout -b branch_remote origin/branch_remote
+
+
+
+#  .gitignore trong file này xác định thư mục git không được quan tâm tới
+ 
+ đặt tên [file_name]  git không được quan tâm vào đây. -> open terminal -> git add .  ->  git commit -m "gitignore"  ->  git push origin branch  
+
+
+
+# Fork ? [ xây dựng với mã nguồn mở .....]
+ 
+ link_author -> git_your -> Fork  -> fix code  ->  Pull request  -> new pull request  -> create pull request X2
 
 
 
@@ -99,7 +164,11 @@ check email: git config user.email
 
  git remote add origin https://github.com/........git
 
- git push origin master
+ git push origin master     [origin được coi là link HTTPS]
 
 
 
+
+# Git clone [download the code from Github to Computer ]
+
+  git clone https:....[in HTTPS]
