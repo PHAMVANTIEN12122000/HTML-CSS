@@ -73,9 +73,15 @@
 
 
 
-#8:   Git Branch [kiểm tra nhánh]
+#8:   Git Branch [kiểm tra nhánh] [local/remote]
  
- git branch
+ #8a: Check branch at local
+
+       git branch  
+
+ #8b:  Check branch at remote 
+      
+       git branch -a
 
 
 
@@ -107,9 +113,17 @@
 
 
 
-#13:    git branch -d branch_name_delete [xóa nhánh đã gộp khi xong ko cần thiết nữa]
+#13:    Delete branch [local/remote]
 
- git branch -d branch_name_delete 
+ #13a:  Delete branch local :
+        
+        git branch -d branch_name_delete [xóa nhánh đã gộp khi xong ko cần thiết nữa]
+
+        git branch -d branch_name_delete 
+
+ #13b:  Delete branch remote :
+         
+        git push origin -d branch_name_remote 
 
 
 
