@@ -8,10 +8,10 @@
 
 #2:   Thiết lập tên và email
 
- git config --global user.name New_Name --add
+ git config --global user.name ' New_Name ' --add
  check name : git config user.name
 
- git config --global user.email email@gmail.com --add
+ git config --global user.email ' email@gmail.com ' --add
  check email: git config user.email 
 
 
@@ -128,7 +128,7 @@
 
 
 
-#16   git push -u origin branch_local_new [đẩy branch [nhánh] mới của local lên remote ]
+#16   git push -u origin branch_local_new [đẩy branch [nhánh] mới/đã sửa tại local của local lên remote ]
  
  git push -u origin branch_local_new
 
@@ -173,3 +173,16 @@
 #21:   git clone [download the code from Github to Computer ]
 
   git clone https:....[in HTTPS]
+
+
+
+#22:   Các trạng thái làm việc của các câu lệnh :
+
+                                        local [ Tại Máy ]                                                             remote 
+   ____________________________________________________________________________________                  _____________________________________
+  
+ Thư mục đang làm việc      !           staging Area             !      comited                !!                     sever 
+                                 [ trạng thái chuyển bị commit ]
+
+                       ----->                                  ----->                        ------>
+                      git add .                           git commit -m ""            git push origin branch 
