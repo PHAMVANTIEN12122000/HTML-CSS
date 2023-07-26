@@ -68,4 +68,21 @@
 
        - success 
 
-  
+
+
+#6: Block lồng nhau.
+ 
+ #6a: Block con là thành phần dùng chung.
+     
+      - Coi đó là 1 Block mới , ko coi nó là 1 Element của Block cũ nữa.
+
+      - Khắc phục tạo class dùng chung khi tạo style của nó.
+
+
+
+  #6b: Block con chứa nhiều Element .
+      
+      - Ý tưởng tách ra từng Block để đặt tên.
+
+      - Tách nó làm Block mới nâng cấp từ Modifier ->  Element -> Block.
+
