@@ -1,0 +1,42 @@
+#1: BEM Khái niệm.
+ 
+ Viết tắt của : BLOCK - ELEMENT - MODIFIER 
+  
+  - Block    :  Khối .
+
+  - Element  :  Thành phần trong khối.
+
+  - Modifier :  [ ***** Bổ sung ý nghĩa ***** ] cho [ Block ] hoặc [ Element ] .
+
+
+
+#2: Luồng tư duy :
+
+  #2a: Dùng [ Block ] and [ Element ] + CSS  -- > tạo ra khối cơ bản [ Trạng thái bình thường ] .
+  
+  #2b: Thêm 1 Class mới [ Modifier ] thêm vào thành phần khối [ Block ] and [ Element ] có sẵn . 
+       sau đó thêm vào cạnh class [ Block ] and [ Element ] ==> Tác dụng thêm sự thay đổi . [trạng thái, màu, kích thước, ..]
+
+
+
+#3: Tại sao lại dùng BEM.
+ 
+ - Mỗi người đặt một kiểu --> khó quả lý code.
+
+ - Menbers đặt class trùng nhau --> CSS đè lên nhau. Ông mới code hỏng code ông cũ.
+
+
+
+#4: Cú pháp BEM.
+ 
+ - .block
+
+ - .block__element 
+
+ - .block--modifier
+
+ - .block__element--modifier
+
+
+
+ #5 
