@@ -39,4 +39,33 @@
 
 
 
- #5 
+ #5: Khi nào dùng modifier 
+
+ - Có thể sử dụng Modifier để :
+    
+    + thay đổi kiểu giao diện  :
+       
+       -  Kích thước.
+
+       -  Màu sắc.
+
+       -  Kiểu chữ.
+
+       -  Font chữ 
+
+       -  Độ rộng.
+
+       -  Độ cao. 
+
+       -  v.v. của các phần tử.
+
+    
+     + Thay đổi trạng thái tình huống :
+       
+       - error
+
+       - warning 
+
+       - success 
+
+  
