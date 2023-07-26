@@ -63,7 +63,7 @@
     background-color: #ff623d;
   }
   
-  .btn--disabled, .btn[disabled] {
+  .btn--disabled {
     opacity: 0.5 !important;
     pointer-events: none;
   }
