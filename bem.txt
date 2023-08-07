@@ -84,5 +84,5 @@
       
       - Ý tưởng tách ra từng Block để đặt tên.
 
-      - Tách nó làm Block mới nâng cấp từ Modifier ->  Element -> Block.
+      - Tách nó làm Block mới nâng cấp từ   Element -> Block.
 
