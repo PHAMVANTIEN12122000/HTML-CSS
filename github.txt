@@ -169,9 +169,9 @@
 
 #20:   Các bước đẩy code lên github
 
- git init
+ git init      [ khởi tạo 1 kho dưới local ]
 
- git status
+ git status    [ kiểm tra trạng thái trong kho hay thư mục ]
 
  git add .
 
