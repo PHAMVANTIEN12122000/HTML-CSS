@@ -173,7 +173,7 @@
 
  git status    [ kiểm tra trạng thái trong kho hay thư mục ]
 
- git add .
+ git add .     [ chuyển vào trạng thái chuyển bị commit tại local ]
 
  git  commit -m"upload sourd code"
 
